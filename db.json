@@ -1,14 +1,228 @@
 {
-  "posts": [
-    { "id": 1, "title": "Post 1" },
-    { "id": 2, "title": "Post 2" },
-    { "id": 3, "title": "Post 3" }
-  ],
-  "comments": [
-    { "id": 1, "body": "some comment", "postId": 1 },
-    { "id": 2, "body": "some comment", "postId": 1 }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  "patients": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 35,
+      "address": {
+        "street": "123 Main St",
+        "city": "Oslo",
+        "postalCode": "0001"
+      },
+      "diagnoses": [
+        {
+          "date": "2023-10-01",
+          "condition": "Hypertension",
+          "code": "I10",
+          "notes": "Prescribed medication"
+        },
+        {
+          "date": "2023-08-15",
+          "condition": "Allergic Rhinitis",
+          "code": "J30.1",
+          "notes": "Advised antihistamines"
+        }
+      ],
+      "phone": "12345678",
+      "email": "john.doe@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "age": 28,
+      "address": {
+        "street": "456 Elm St",
+        "city": "Bergen",
+        "postalCode": "5001"
+      },
+      "diagnoses": [
+        {
+          "date": "2023-09-10",
+          "condition": "Asthma",
+          "code": "J45",
+          "notes": "Inhaler prescribed"
+        },
+        {
+          "date": "2023-11-01",
+          "condition": "Diabetes",
+          "code": "E11",
+          "notes": "Diet management"
+        }
+      ],
+      "phone": "87654321",
+      "email": "jane.smith@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "age": 16,
+      "address": {
+        "street": "789 Pine St",
+        "city": "Stavanger",
+        "postalCode": "4001"
+      },
+      "diagnoses": [
+        {
+          "date": "2023-07-22",
+          "condition": "Asthma",
+          "code": "J45",
+          "notes": "Monthly check-ups required"
+        },
+        {
+          "date": "2023-11-05",
+          "condition": "Allergic Rhinitis",
+          "code": "J30.1",
+          "notes": "Monitor symptoms"
+        }
+      ],
+      "phone": "23456789",
+      "email": "alice.johnson@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Bob Brown",
+      "age": 42,
+      "address": {
+        "street": "101 Oak St",
+        "city": "Trondheim",
+        "postalCode": "7001"
+      },
+      "diagnoses": [
+        {
+          "date": "2023-05-12",
+          "condition": "Hypertension",
+          "code": "I10",
+          "notes": "Lifestyle changes recommended"
+        }
+      ],
+      "phone": "34567890",
+      "email": "bob.brown@example.com"
+    },
+    {
+      "id": 5,
+      "name": "Charlie Green",
+      "age": 12,
+      "address": {
+        "street": "202 Birch St",
+        "city": "Drammen",
+        "postalCode": "3001"
+      },
+      "diagnoses": [
+        {
+          "date": "2023-02-28",
+          "condition": "Allergic Rhinitis",
+          "code": "J30.1",
+          "notes": "Avoid pollen exposure"
+        }
+      ],
+      "phone": "45678901",
+      "email": "charlie.green@example.com"
+    },
+    {
+      "id": 6,
+      "name": "Emily White",
+      "age": 47,
+      "address": {
+        "street": "303 Maple St",
+        "city": "Oslo",
+        "postalCode": "0002"
+      },
+      "diagnoses": [
+        {
+          "date": "2023-03-15",
+          "condition": "Diabetes",
+          "code": "E11",
+          "notes": "Insulin therapy"
+        }
+      ],
+      "phone": "56789012",
+      "email": "emily.white@example.com"
+    },
+    {
+      "id": 7,
+      "name": "Tommy Lee",
+      "age": 14,
+      "address": {
+        "street": "404 Cypress Ave",
+        "city": "Oslo",
+        "postalCode": "0001"
+      },
+      "diagnoses": [
+        {
+          "date": "2023-09-30",
+          "condition": "Asthma",
+          "code": "J45",
+          "notes": "New inhaler prescribed"
+        }
+      ],
+      "phone": "67890123",
+      "email": "tommy.lee@example.com"
+    },
+    {
+      "id": 8,
+      "name": "Nancy Adams",
+      "age": 67,
+      "address": {
+        "street": "505 Willow Rd",
+        "city": "Bergen",
+        "postalCode": "5001"
+      },
+      "diagnoses": [
+        {
+          "date": "2023-08-12",
+          "condition": "Hypertension",
+          "code": "I10",
+          "notes": "Routine monitoring"
+        },
+        {
+          "date": "2023-10-22",
+          "condition": "Arthritis",
+          "code": "M19",
+          "notes": "Pain management plan"
+        }
+      ],
+      "phone": "78901234",
+      "email": "nancy.adams@example.com"
+    },
+    {
+      "id": 9,
+      "name": "Robert King",
+      "age": 8,
+      "address": {
+        "street": "606 Pine St",
+        "city": "Stavanger",
+        "postalCode": "4001"
+      },
+      "diagnoses": [
+        {
+          "date": "2023-01-25",
+          "condition": "Allergic Rhinitis",
+          "code": "J30.1",
+          "notes": "Nasal spray"
+        }
+      ],
+      "phone": "89012345",
+      "email": "robert.king@example.com"
+    },
+    {
+      "id": 10,
+      "name": "Laura Fisher",
+      "age": 22,
+      "address": {
+        "street": "707 Oak St",
+        "city": "Trondheim",
+        "postalCode": "7001"
+      },
+      "diagnoses": [
+        {
+          "date": "2023-02-18",
+          "condition": "Asthma",
+          "code": "J45",
+          "notes": "Annual review needed"
+        }
+      ],
+      "phone": "90123456",
+      "email": "laura.fisher@example.com"
+    }
+  ]
 }
